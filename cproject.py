@@ -16,6 +16,7 @@ print(df.describe())
 print(df.isnull().sum())
 print("\n❓ Missing Values:")
 print(df.isnull().sum())
+print()
 #CLEANING DATA
 df['Age'] = df['Age'].fillna(df['Age'].median())
 df['BMI'] = df['BMI'].fillna(df['BMI'].mean())
